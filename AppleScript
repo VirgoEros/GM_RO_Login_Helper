@@ -1,0 +1,309 @@
+
+-- 蘋果腳本 - 倘若要重新登魞，請先登出帳號唷😊 
+-- 登魞臉書後，連開15分頁，最後分頁以臉書帳號登魞遊戲唷😊 
+-- 鮞後，手動鰎魞認證碼，從第14分頁往前登魞唷😊 
+
+-- bit.ly/下載GM_RO_S01服_天使波利_15開登魞腳本 
+
+----------------- G妹遊戲-仙境傳說1服 天使波利 15開登魞腳本 -------------------ON. 
+
+on run
+	try
+		set FaceBookPage to ("https://www.facebook.com/") -- 臉書首頁 
+		set FaceBookAccount to ("沝女鰰的臉書帳號")
+		set FaceBookPassword to ("沝女鰰的臉書密碼")
+		
+		set GM_RO_Server1 to ("https://www.gm99.com/play_games/play/server/ro/id/1") -- G妹遊戲-仙境傳說1服 天使波利 網址
+		
+		set GM_Account_01 to ("沝女鰰的G妹帳號1")
+		set GM_Account_02 to ("沝女鰰的G妹帳號2")
+		set GM_Account_03 to ("沝女鰰的G妹帳號3")
+		set GM_Account_04 to ("沝女鰰的G妹帳號4")
+		set GM_Account_05 to ("沝女鰰的G妹帳號5")
+		set GM_Account_06 to ("沝女鰰的G妹帳號6")
+		set GM_Account_07 to ("沝女鰰的G妹帳號7")
+		set GM_Account_08 to ("沝女鰰的G妹帳號8")
+		set GM_Account_09 to ("沝女鰰的G妹帳號9")
+		set GM_Account_10 to ("沝女鰰的G妹帳號10")
+		set GM_Account_11 to ("沝女鰰的G妹帳號11")
+		set GM_Account_12 to ("沝女鰰的G妹帳號12")
+		set GM_Account_13 to ("沝女鰰的G妹帳號13")
+		set GM_Account_14 to ("沝女鰰的G妹帳號14")
+		set GM_Account_15 to ("沝女鰰的G妹帳號15")
+		
+		set GM_Password_01 to ("沝女鰰的G妹帳號1密碼")
+		set GM_Password_02 to ("沝女鰰的G妹帳號2密碼")
+		set GM_Password_03 to ("沝女鰰的G妹帳號3密碼")
+		set GM_Password_04 to ("沝女鰰的G妹帳號4密碼")
+		set GM_Password_05 to ("沝女鰰的G妹帳號5密碼")
+		set GM_Password_06 to ("沝女鰰的G妹帳號6密碼")
+		set GM_Password_07 to ("沝女鰰的G妹帳號7密碼")
+		set GM_Password_08 to ("沝女鰰的G妹帳號8密碼")
+		set GM_Password_09 to ("沝女鰰的G妹帳號9密碼")
+		set GM_Password_10 to ("沝女鰰的G妹帳號10密碼")
+		set GM_Password_11 to ("沝女鰰的G妹帳號11密碼")
+		set GM_Password_12 to ("沝女鰰的G妹帳號12密碼")
+		set GM_Password_13 to ("沝女鰰的G妹帳號13密碼")
+		set GM_Password_14 to ("沝女鰰的G妹帳號14密碼")
+		set GM_Password_15 to ("沝女鰰的G妹帳號15密碼")
+		
+		tell application "Google Chrome"
+			activate
+			open location FaceBookPage
+			delay 5
+			tell application "System Events"
+				keystroke FaceBookAccount
+				keystroke tab
+				keystroke FaceBookPassword
+				keystroke return
+				delay 2
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_15
+				keystroke tab
+				keystroke GM_Password_15
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_14
+				keystroke tab
+				keystroke GM_Password_14
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_13
+				keystroke tab
+				keystroke GM_Password_13
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_12
+				keystroke tab
+				keystroke GM_Password_12
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_11
+				keystroke tab
+				keystroke GM_Password_11
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_10
+				keystroke tab
+				keystroke GM_Password_10
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_09
+				keystroke tab
+				keystroke GM_Password_09
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_08
+				keystroke tab
+				keystroke GM_Password_08
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_07
+				keystroke tab
+				keystroke GM_Password_07
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_06
+				keystroke tab
+				keystroke GM_Password_06
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_05
+				keystroke tab
+				keystroke GM_Password_05
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_04
+				keystroke tab
+				keystroke GM_Password_04
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_03
+				keystroke tab
+				keystroke GM_Password_03
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_02
+				keystroke tab
+				keystroke GM_Password_02
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 3 times
+					keystroke tab
+				end repeat
+				keystroke GM_Account_01
+				keystroke tab
+				keystroke GM_Password_01
+				keystroke tab
+			end tell
+		end tell
+		delay 2
+		tell application "Google Chrome"
+			activate
+			open location GM_RO_Server1
+			delay 2
+			tell application "System Events"
+				repeat 10 times
+					keystroke tab
+				end repeat
+				keystroke return
+				delay 2
+				continue quit
+			end tell
+		end tell
+	on error errmsg number errnbr
+		if errnbr = -128 then continue quit
+		continue quit
+	end try
+end run
+----------------- G妹遊戲-仙境傳說1服 天使波利 15開登魞腳本 -------------------END. 
+
+
+-- 
